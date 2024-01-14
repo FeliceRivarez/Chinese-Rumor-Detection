@@ -21,9 +21,28 @@
     
     预处理模式：onehot编码。
     
-  RumorDetectionAlpha1.0:
-  RumorDetectionAlpha1.0:
-  RumorDetectionAlpha1.0:
-  
+  RumorDetectionAlpha2.0:
+
+    包括sklearn实现的随机森林、支持向量机、BP神经网络分类模型。
+
+    预处理方式：onehot编码
+    
+  RumorDetectionAlpha3.0:
+
+    包括sklearn实现的KNN、随机森林、支持向量机、BP神经网络分类模型。
+
+    预处理方式：利用RumorDetectionAlpha1.0对每一条数据产生二维条件概率
+    
+  RumorDetectionAlpha4.0:
+
+    包括Keras库实现的CNN、RNN、CNN-RNN、LSTM、BiLSTM分类模型。
+
+    预处理方式：tokenizing+wordEmbedding
+
+  RumorDetectionBeta5.0:
+
+    包括Hugging Face的Transformers库实现的BERT分类模型，预训练模型使用了bert-base-chinese
+
+    预处理方式：tokenizing+wordEmbedding
 
 
