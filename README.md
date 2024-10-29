@@ -1,3 +1,5 @@
+NKU的同学们如果参考，别忘了点个Star~
+
 # Chinese-Rumor-Detection
 
 # 中文介绍
